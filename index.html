@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aatman Gupta’s 100-hour Industrial Training portfolio at MIT Manipal.">
+  <title>Aatman Gupta | ITR Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Aatman Gupta home">ag.</a>
+    <span class="brand-name">Aatman Gupta<small>ITR PORTFOLIO / 2026</small></span>
+    <button id="menuBtn" class="menu-btn" aria-label="Open navigation" aria-controls="navMenu" aria-expanded="false" type="button">☰</button>
+    <nav id="navMenu" class="nav-menu" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#learning">Learning</a>
+      <a href="#skills">Skills</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-btn" aria-label="Switch to dark theme" aria-pressed="false" type="button">◐</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">A learning journey, put into practice</p>
+        <h1>Hi, I'm Aatman.<br>I learn, <span>then build.</span></h1>
+        <h2>Web development · Applied AI · Digital skills</h2>
+        <p>
+          This portfolio demonstrates the skills developed during my 100-hour
+          Industrial Training learning pathway using HTML5, CSS3, JavaScript,
+          Digital 101 and Applied AI.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#project">Meet the Project</a>
+          <a class="btn secondary" href="#learning">Explore My Learning</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>100</strong><span>Training Hours</span></div>
+          <div><strong>5</strong><span>Courses</span></div>
+          <div><strong>3</strong><span>Platforms</span></div>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Student profile">
+        <div class="profile-label">STUDENT / BUILDER <span>MIT MANIPAL</span></div>
+        <div class="avatar" aria-hidden="true">AG<span>.</span><small>CREATE · LEARN · REPEAT</small></div>
+        <h3>Aatman Gupta</h3>
+        <p>Artificial Intelligence &amp; Machine Learning</p>
+        <p class="profile-meta">AIML-B / Roll 44 <span>230962216</span></p>
+        <div class="status">● 100-hour training pathway</div>
+      </aside>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>My training journey</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            My Industrial Training combined front-end web development with
+            applied artificial intelligence and foundational digital literacy.
+            The objective was to understand how modern interfaces are structured,
+            styled and made interactive while also learning to use digital and AI
+            tools responsibly.
+          </p>
+          <p>
+            This website is the integrated practical exercise for the pathway:
+            HTML provides semantic structure, CSS creates a responsive visual
+            design, and JavaScript adds interactive behaviour.
+          </p>
+        </div>
+        <div class="info-card">
+          <p><strong>Programme</strong><span>Artificial Intelligence & ML</span></p>
+          <p><strong>Institution</strong><span>Manipal Institute of Technology</span></p>
+          <p><strong>Guide</strong><span>P B Shanthi</span></p>
+          <p><strong>Training</strong><span>100-hour certified pathway</span></p>
+          <p><strong>Focus</strong><span>Web • AI • Digital Literacy</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="learning" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">02 / THE LEARNING PATHWAY</p>
+        <h2>Five courses, one connected skill set</h2>
+        <p>Use the filter to view different parts of my training.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Course filters">
+        <button class="filter active" type="button" aria-pressed="true" data-filter="all">All</button>
+        <button class="filter" type="button" aria-pressed="false" data-filter="web">Web Development</button>
+        <button class="filter" type="button" aria-pressed="false" data-filter="ai">Applied AI</button>
+        <button class="filter" type="button" aria-pressed="false" data-filter="digital">Digital Skills</button>
+      </div>
+
+      <p id="courseSummary" class="course-summary" aria-live="polite">Showing 5 courses · 100 hours</p>
+      <div id="courseGrid" class="course-grid">
+        <article class="course-card" data-category="web" data-hours="13">
+          <span class="course-icon">&lt;/&gt;</span><span class="hours">13 h</span>
+          <h3>HTML5 — The Language</h3><p>Infosys Springboard</p>
+          <ul><li>Semantic markup</li><li>Forms and media</li><li>Accessibility</li></ul>
+        </article>
+        <article class="course-card" data-category="web" data-hours="11">
+          <span class="course-icon">#</span><span class="hours">11 h</span>
+          <h3>CSS3</h3><p>Infosys Springboard</p>
+          <ul><li>Box model</li><li>Flexbox</li><li>Responsive design</li></ul>
+        </article>
+        <article class="course-card" data-category="web" data-hours="16">
+          <span class="course-icon">JS</span><span class="hours">16 h</span>
+          <h3>JavaScript</h3><p>Infosys Springboard</p>
+          <ul><li>Core language</li><li>DOM manipulation</li><li>Event handling</li></ul>
+        </article>
+        <article class="course-card" data-category="digital" data-hours="30">
+          <span class="course-icon">101</span><span class="hours">30 h</span>
+          <h3>Digital 101</h3><p>FutureSkills Prime • MeitY–NASSCOM</p>
+          <ul><li>Digital literacy</li><li>Online safety</li><li>Digital communication</li></ul>
+        </article>
+        <article class="course-card" data-category="ai" data-hours="30">
+          <span class="course-icon">AI</span><span class="hours">30 h</span>
+          <h3>Applied AI: Generative, Creative, and Multimodal Intelligence</h3><p>SWAYAM Plus • Amity University Online</p>
+          <ul><li>Generative AI</li><li>Multimodal systems</li><li>Responsible AI use</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SKILLS IN PRACTICE</p>
+        <h2>What I learned to apply</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill"><span class="skill-check" aria-hidden="true">✓</span><div><span>HTML5</span><span>Semantic structure</span></div></div>
+        <div class="skill"><span class="skill-check" aria-hidden="true">✓</span><div><span>CSS3</span><span>Responsive styling</span></div></div>
+        <div class="skill"><span class="skill-check" aria-hidden="true">✓</span><div><span>JavaScript</span><span>Client-side interactivity</span></div></div>
+        <div class="skill"><span class="skill-check" aria-hidden="true">✓</span><div><span>Digital Literacy</span><span>Safe digital practice</span></div></div>
+        <div class="skill"><span class="skill-check" aria-hidden="true">✓</span><div><span>Applied AI</span><span>Responsible AI usage</span></div></div>
+      </div>
+    </section>
+
+    <section id="project" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">04 / INTEGRATED PRACTICAL EXERCISE</p>
+        <h2>Interactive ITR Portfolio</h2>
+      </div>
+      <div class="project-panel">
+        <div>
+          <h3>Structure + Style + Behaviour</h3>
+          <p>
+            This portfolio combines the three core front-end technologies from
+            my training in one practical application. It uses semantic HTML,
+            Flexbox and responsive CSS, plus JavaScript for dynamic interaction.
+          </p>
+          <div class="tags">
+            <span>Semantic HTML</span><span>Flexbox</span><span>Media Queries</span>
+            <span>DOM</span><span>Events</span><span>Validation</span>
+          </div>
+        </div>
+        <div class="feature-list">
+          <p>✓ Responsive navigation</p>
+          <p>✓ Light/dark theme toggle</p>
+          <p>✓ Dynamic course filtering</p>
+          <p>✓ Live training-hours counter</p>
+          <p>✓ Contact-form validation</p>
+          <p>✓ Dynamic status messages</p>
+        </div>
+      </div>
+      <div class="counter-card">
+        <span>Courses currently displayed</span>
+        <strong id="visibleCourses">5</strong>
+        <span>Total training hours represented</span>
+        <strong id="visibleHours">100</strong>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">05 / TRY THE INTERACTION</p>
+        <h2>JavaScript form validation</h2>
+        <p>Try the form to see JavaScript validation in action. This is a demo; messages are not sent.</p>
+      </div>
+      <p class="contact-link">To contact me: <a href="mailto:aatman.mitmpl2023@learner.manipal.edu">aatman.mitmpl2023@learner.manipal.edu ↗</a></p>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required minlength="2" maxlength="100" aria-describedby="nameError"><p id="nameError" class="field-error"></p>
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required maxlength="254" aria-describedby="emailError"><p id="emailError" class="field-error"></p>
+        <label for="message">Your message</label><textarea id="message" name="message" rows="5" placeholder="Write a message..." required minlength="10" maxlength="2000" aria-describedby="messageHint messageError"></textarea><div class="message-meta"><span id="messageHint">At least 10 characters</span><span id="charCount">0 / 2000</span></div><p id="messageError" class="field-error"></p>
+        <button class="btn primary" type="submit">Validate Message →</button>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Learning by doing. Built with HTML5, CSS3 &amp; JavaScript as an Industrial Training capstone exercise.</p>
+    <p>© <span id="year"></span> Aatman Gupta</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
